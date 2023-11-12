@@ -11,7 +11,10 @@
 function askForName() { console.log("Hello, what is your name?") }
 
 askForName()
-
+function askForName(){
+  return "Hello, what is your name?")
+}
+askForName();
 
 // EX 2:
 function addThreeNums(first, second, third) {
